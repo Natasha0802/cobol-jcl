@@ -1,0 +1,18 @@
+IDENTIFICATION DIVISION
+PROGRAM-ID. SAMPLE03.
+
+DATA DIVISION.
+WORKING-STORAGE SECTION.
+01  I PIC 9(2).
+
+PROCEDURE DIVISION.
+MAIN.
+*繰り返し処理。
+*   ① IにFROMの値（ここでは1）をセットする。
+*   ② UNTIL条件（I > 3）を評価。条件が偽ならループ本体（DISPLAY 'I=' I）を実行。
+*   ③ BYの値（+1）をIに加える。
+*   ④ UNTILが真になった時点でループを抜ける。
+  PERFORM VARYING I FROM 1 BY 1 UNTIL I > 3
+    DISPLAY 'I=' I
+  END-PERFORM
+GOBACK.
