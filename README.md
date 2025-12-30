@@ -1,4 +1,4 @@
-# COBOL / JCL Syntax Catalog
+# COBOL / JCL 
 
 COBOLとJCLの基本構文を理解していることを示すためのサンプル集です。
 
