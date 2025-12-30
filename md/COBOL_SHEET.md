@@ -1,0 +1,33 @@
+# COBOL Sheet
+
+## プログラム構造
+- IDENTIFICATION / ENVIRONMENT / DATA / PROCEDURE DIVISION
+- SECTION / PARAGRAPH
+- GOBACK / STOP RUN
+
+## データ定義
+- PIC X / 9 / S9 / V（小数点）
+- COMP / COMP-3（パック）
+- REDEFINES
+- OCCURS（配列）
+- COPY（COPY句）
+
+## 制御構文
+- IF / ELSE / END-IF
+- EVALUATE（SWITCH相当）
+- PERFORM（段落呼び出し）
+- PERFORM UNTIL / VARYING（ループ）
+
+## 文字列操作
+- STRING / UNSTRING
+
+## ファイルI/O
+- SELECT / FD
+- READ / WRITE
+- AT END（EOF）
+- LINE SEQUENTIAL / SEQUENTIAL
+
+## サブプログラム
+- CALL ... USING
+- LINKAGE SECTION
+- RETURN-CODE
